@@ -3,30 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+}
+body{
+    height: 100%;
+    width: 100%;
+}
 .container{
     background-color: #FFCD9E;
-    height: 720px;
-    width: 1520px;
+    width: 100%;
     display: grid;
-    grid-template-rows: auto 250px;
+    grid-template-rows: auto 38.2%;
 }
 .one{
     grid-row: 1/2;
     display: grid;
     grid-template-rows: auto auto;
-    grid-template-columns: auto 600px;
+    grid-template-columns: auto 50%;
 }
 .two{
     grid-row: 2/3;
     background-color: black;
     display: grid;
     grid-template-columns: auto auto;
-    column-gap: 20px;
+    column-gap: 2%;
 }
 .grid1{
     grid-row: 1/2;
     grid-column: 1/2;
-    height:90px;
 }
 .grid2{
     grid-row: 2/3;
@@ -35,6 +38,7 @@
 .grid3{
     grid-column: 2/3;
     grid-row: 1/4;
+    height: 130%;
     background-image: url(./dweep\ io\ 1.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -42,9 +46,9 @@
 
 }
 .para1{
-    padding-top: 33px;
-    padding-left: 136px;
-    width: 700px;
+    padding-top: 4.3%;
+    padding-left: 17%;
+    width: 100%;
     color: #282828;
     font-weight: 700;
     font-size: 36px;
@@ -53,30 +57,28 @@
 .para2{
     color: #484848;
     font-weight: 500;
-    padding-top: 20px;
-    padding-left: 136px;
-    padding-bottom: 30px;
+    padding-top: 2.6%;
+    padding-left: 17%;
+    padding-bottom: 3.9%;
     line-height: 30px;
     font-size: 20px;
-    width: 600px;
+    width: 80%;
 }
 .para3{
-    padding-top: 130px;
-    padding-left: 136px;
+    padding-left: 17%;
     color:#282828;
     font-weight: 800;
-    height: 80px;
     font-size: 20px;
     line-height: 30px;
 }
 .flex-box{
-    padding-top: 30px;
-    padding-left: 136px;
-    height: 60px;
+    padding-top: 2.6%;
+    padding-left: 17%;
+    height: 100px;
     display: grid;
-    grid-template-columns: 300px 200px;
-    grid-template-rows: 60px;
-    column-gap: 20px;
+    grid-template-columns: 50% 30%;
+    grid-template-rows: 70%;
+    column-gap: 2%;
 }
 .div1{
     grid-column: 1/2;
@@ -93,8 +95,8 @@
 }
 .para{
     color: #888888;
-    padding-left: 35px;
-    padding-top: 8px;
+    padding-left: 10%;
+    padding-top: 3%;
     font-weight: 600;
     font-size: 20px;
     font-family: Inter;
@@ -106,21 +108,20 @@
     font-weight: 600;
     font-family: Inter;
     text-align: center;
-    padding-top: 18px;
+    padding-top: 9%;
 }
 .caution{
-    height: 30px;
-    padding-top: 15px;
-    padding-left: 176px;
+    padding-left: 25%;
 }
 .cau{
     font-size: 16px;
     color:#FFFFFF;
     font-family: Inter;
+    padding-bottom: 11.9%;
 }
 .list1{
     color: #FFFFFF;
-    padding-top: 35px;
+    padding-top: 4%;
     padding-left: 200px;
     font-size: 20px;
     line-height: 35px;
@@ -129,8 +130,8 @@
 .list2{
     display: flex;
     color: #FFFFFF;
-    padding-top: 35px;
-    padding-left: 400px;
+    padding-top: 6%;
+    padding-left: 40%;
     font-size: 20px;
     line-height: 35px;
     font-weight: 400;
