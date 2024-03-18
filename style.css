@@ -26,7 +26,6 @@
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 2%;
-    height: 88%;
 }
 .grid1{
     grid-row: 1/2;
