@@ -5,7 +5,7 @@
 }
 }
 .body{
-    height: 100vh;
+    height: 100%;
     width: 120%;
 }
 .container{
@@ -26,6 +26,7 @@
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 2%;
+    height: 90%;
 }
 .grid1{
     grid-row: 1/2;
