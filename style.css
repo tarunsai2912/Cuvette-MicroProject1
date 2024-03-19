@@ -3,8 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-}
-.body{
+body{
     min-height: 100vh;
     min-width: 100vw;
 }
@@ -13,20 +12,20 @@
     min-width: 100vw;
     min-height: 100vh;
     display: grid;
-    grid-template-rows: auto 43%;
+    grid-template-rows: auto 43vh;
 }
 .one{
     grid-row: 1/2;
     display: grid;
     grid-template-rows: auto auto;
-    grid-template-columns: auto 50%;
+    grid-template-columns: auto 50vw;
 }
 .two{
     grid-row: 2/3;
     background-color: black;
     display: grid;
     grid-template-columns: auto auto;
-    column-gap: 2%;
+    column-gap: 2vw;
 }
 .grid1{
     grid-row: 1/2;
@@ -39,17 +38,14 @@
 .grid3{
     grid-column: 2/3;
     grid-row: 1/4;
-    height: 130%;
     background-image: url(./dweep\ io\ 1.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain; 
-
+    background-size: contain;
 }
 .para1{
-    padding-top: 4.3%;
-    padding-left: 17%;
-    width: 100%;
+    padding-top: 4.3vh;
+    padding-left: 8.5vw;
     color: #282828;
     font-weight: 700;
     font-size: 36px;
@@ -58,28 +54,27 @@
 .para2{
     color: #484848;
     font-weight: 500;
-    padding-top: 2.6%;
-    padding-left: 17%;
-    padding-bottom: 3.9%;
+    padding-top: 2.6vh;
+    padding-left: 8.5vw;
+    padding-bottom: 3.9vh;
     line-height: 30px;
     font-size: 20px;
-    width: 80%;
 }
 .para3{
-    padding-left: 17%;
+    padding-left: 8.5vw;
     color:#282828;
     font-weight: 800;
     font-size: 20px;
     line-height: 30px;
 }
 .flex-box{
-    padding-top: 2.6%;
-    padding-left: 17%;
-    height: 100px;
+    padding-top: 2.6vh;
+    padding-left: 8.5vw;
     display: grid;
-    grid-template-columns: 50% 30%;
-    grid-template-rows: 70%;
-    column-gap: 2%;
+    grid-template-columns: 20vw 15vw;
+    grid-template-rows: 8.5vh;
+    column-gap: 1vw;
+    height: 15vh;
 }
 .div1{
     grid-column: 1/2;
@@ -96,8 +91,8 @@
 }
 .para{
     color: #888888;
-    padding-left: 10%;
-    padding-top: 3%;
+    padding-left: 2vw;
+    padding-top: 1.5vh;
     font-weight: 600;
     font-size: 20px;
     font-family: Inter;
@@ -109,21 +104,21 @@
     font-weight: 600;
     font-family: Inter;
     text-align: center;
-    padding-top: 9%;
+    padding-top: 2.5vh;
 }
 .caution{
-    padding-left: 25%;
+    padding-left: 13vw;
 }
 .cau{
     font-size: 16px;
     color:#FFFFFF;
     font-family: Inter;
-    padding-bottom: 11.9%;
+    padding-bottom: 11.9vh;
 }
 .list1{
     color: #FFFFFF;
-    padding-top: 4%;
-    padding-left: 200px;
+    padding-top: 8vh;
+    padding-left: 13vw;
     font-size: 20px;
     line-height: 35px;
     font-weight: 400;
@@ -131,18 +126,17 @@
 .list2{
     display: flex;
     color: #FFFFFF;
-    padding-top: 6%;
-    padding-left: 40%;
+    padding-top: 8vh;
+    padding-left: 30vw;
     font-size: 20px;
     line-height: 35px;
     font-weight: 400;
     text-align: right;
 }
 .images{
-    width: 200px;
     display: flex;
     flex-direction: row;
     flex-flow: row-reverse;
     border: 2px;
-    column-gap: 5px;
+    column-gap: 0.5vw;
 }
